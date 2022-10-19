@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char *mk[] = "_putchar";
+	char *mk = "_putchar";
 
 	while (*mk)
 	{
