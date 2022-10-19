@@ -6,13 +6,12 @@
  */
 int main(void)
 {
-	char _putchar[] = "_putchar";
-	int i = 0;
+	char *mk[] = "_putchar";
 
-	while (_putchar[i] != '\0')
+	while (*mk)
 	{
-		_putchar(_putchar[i]);
-		i++;
+		_putchar(*mk);
+		mk++;
 	}
 	_putchar('\n');
 
