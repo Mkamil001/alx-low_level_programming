@@ -1,2 +1,1 @@
-# alx-low_level_programming
-C-programming
+Static liabraries
